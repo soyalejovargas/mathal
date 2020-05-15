@@ -1,4 +1,92 @@
-body
-{
-  font-size: 40pt;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+.container{
+  width:80%;
+  height:100vh;
+  margin:auto;
+  margin-top:100px;
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
 }
+
+.container h1{
+  font-weight:600;
+  font-size:40px;
+}
+
+.op{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  text-align:center;
+  justify-content:center;
+  padding:20px;
+}
+
+.derecha{
+  width:40%;
+  height:auto;
+}
+
+.operador{
+  width:20%;
+  height:auto;
+}
+
+.izquierda{
+  width:40%;
+  height:auto;
+}
+
+.op input{
+  border:none;
+  height:120px;
+  width:100%;
+  text-align:center;
+  font-size:50px;
+}
+
+input:focus{
+  outline:none;
+}
+
+#num1, #num2{
+  border-bottom:2px solid black;
+}
+
+select{
+  text-align-last:center;
+  font-size:70px;
+  appearance:none;
+   -webkit-appearance: none; 
+   -moz-appearance: none;
+  background:White;
+  border:none;
+}
+
+select:focus{
+  outline:none;
+}
+
+button{
+  width:50%;
+  height:80px;
+  background:#2980B9;
+  color:White;
+  font-size:30px;
+  letter-spacing:5px;
+  border:none;
+  border-radius:7px;
+}
+
+button:focus{
+  outline:none;
+}
+
+button:hover{
+  -moz-box-shadow:    3px 3px 8px 6px #3498DB;
+  -webkit-box-shadow: 3px 3px 8px 6px #3498DB;
+  box-shadow:         3px 3px 8px 6px #3498DB;
+}
+
