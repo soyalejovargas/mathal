@@ -1,9 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
 .container{
   width:80%;
-  height:100vh;
+  height:auto;
   margin:auto;
   margin-top:100px;
   text-align:center;
@@ -22,6 +22,7 @@
   text-align:center;
   justify-content:center;
   padding:20px;
+  margin:20px;
 }
 
 .derecha{
@@ -89,4 +90,35 @@ button:hover{
   -webkit-box-shadow: 3px 3px 8px 6px #3498DB;
   box-shadow:         3px 3px 8px 6px #3498DB;
 }
+
+#resultado{
+  width:90%;
+  height:auto;
+  margin:auto;
+  margin-top:70px;
+  text-align:left;
+}
+
+#resultado h2{
+  text-align:center;
+  font-size:40px;
+  font-weight:900;
+}
+
+#resultado h3{
+  font-size:35px;
+  color: black;
+  font-weight:600;
+}
+
+#resultado p{
+  font-size:37px;
+  color:Black;
+  font-weight:600;
+  padding:20px 50px;
+  border-radius:10px;
+  background:#F2F3F4;
+  font-family: 'Jost', sans-serif;
+}
+
 
